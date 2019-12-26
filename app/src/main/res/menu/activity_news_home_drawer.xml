@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:textColor="@color/colorBackground"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home"
+            />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_folder_shared_black_24dp"
+            android:title="Category" />
+        <item
+            android:id="@+id/nav_sources"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="Sources" />
+    </group>
+
+    <item android:title="_______________________________________________________________">
+        <menu>
+            <item
+                android:id="@+id/nav_signIn"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="Sign In"/>
+            <item
+                android:id="@+id/nav_more"
+                android:icon="@drawable/ic_more_black_24dp"
+                android:title="More Apps"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_create_black_24dp"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
